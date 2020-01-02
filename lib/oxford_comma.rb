@@ -4,6 +4,6 @@ def oxford_comma(array)
   array.pop 
   array = array.join(", ")
   array << "," unless length == 2 
-  array << "and " + array_back
+  array << " and " + array_back
   array
 end
