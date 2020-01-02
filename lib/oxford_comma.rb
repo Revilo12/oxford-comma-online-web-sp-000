@@ -4,5 +4,8 @@ def oxford_comma(array)
   case len
   when 0
     ""
+  when 1 
+    array.to_s
+      
     
 end
