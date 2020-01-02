@@ -3,7 +3,7 @@ def oxford_comma(array)
   array_back = array[-1]
   array.pop 
   array.join(", ")
-  ? length = 2: 
+  array << "," unless length == 2 
   array << "and " + array_back
-  #this need an if statment
+  array
 end
